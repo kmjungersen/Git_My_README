@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+
+    <script src="static/markdown.js"></script>
+
+</head>
+
+<div style="width: 100%;">
+   <div style="float:left; width: 50%">
+       <textarea name="input_field" class="input_field" style="width:80%; height: 1000px"></textarea>
+   </div>
+
+   <div>
+       {{ content | safe }}
+   </div>
+</div>
+
+
+
+</html>
